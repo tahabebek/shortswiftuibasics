@@ -47,7 +47,7 @@ struct MenuGroup: Identifiable {
 
 let menu = [
   MenuGroup(
-    name: "Zurgers",
+    name: "Burgers",
     dishes: [
       Dish(name: "Hamburger"),
       Dish(name: "Cheeseburger"),
