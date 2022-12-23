@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FAFEED92954EC5B0012EF68 /* HowToUseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEED82954EC5B0012EF68 /* HowToUseList.swift */; };
 		0FC1D210294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1D20F294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift */; };
 		0FC1D214294039C000F1A65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1D213294039C000F1A65B /* Assets.xcassets */; };
 		0FC1D217294039C000F1A65B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1D216294039C000F1A65B /* Preview Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		0FF5AC43294CEFD900BEF6D9 /* HowToUseBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5AC42294CEFD900BEF6D9 /* HowToUseBinding.swift */; };
 		0FF5AC45294E164A00BEF6D9 /* HowToAddAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5AC44294E164A00BEF6D9 /* HowToAddAnimation.swift */; };
 		0FF5AC472950E38C00BEF6D9 /* HowToUseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5AC462950E38C00BEF6D9 /* HowToUseTransition.swift */; };
+		0FFB7BCE2954874600217CE8 /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB7BCD2954874600217CE8 /* Spotify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FAFEED82954EC5B0012EF68 /* HowToUseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseList.swift; sourceTree = "<group>"; };
 		0FC1D20C294039BE00F1A65B /* ShortSwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortSwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC1D20F294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortSwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		0FC1D213294039C000F1A65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 		0FF5AC42294CEFD900BEF6D9 /* HowToUseBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseBinding.swift; sourceTree = "<group>"; };
 		0FF5AC44294E164A00BEF6D9 /* HowToAddAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAddAnimation.swift; sourceTree = "<group>"; };
 		0FF5AC462950E38C00BEF6D9 /* HowToUseTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseTransition.swift; sourceTree = "<group>"; };
+		0FFB7BCD2954874600217CE8 /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				0FF4DB4C2953148200E825D8 /* TaskManager.swift */,
 				0FF4DB4E295314E300E825D8 /* TaskViewModel.swift */,
 				0FF4DB5029539B1500E825D8 /* HowToUseNavigation.swift */,
+				0FFB7BCD2954874600217CE8 /* Spotify.swift */,
+				0FAFEED82954EC5B0012EF68 /* HowToUseList.swift */,
 				0FC1D213294039C000F1A65B /* Assets.xcassets */,
 				0FC1D215294039C000F1A65B /* Preview Content */,
 			);
@@ -353,6 +359,8 @@
 				0FE1FAFD294767AC000E114E /* HowToShowImages.swift in Sources */,
 				0FE1FB012947B4E4000E114E /* HowToAddBackground.swift in Sources */,
 				0FF4DB5129539B1500E825D8 /* HowToUseNavigation.swift in Sources */,
+				0FFB7BCE2954874600217CE8 /* Spotify.swift in Sources */,
+				0FAFEED92954EC5B0012EF68 /* HowToUseList.swift in Sources */,
 				0FE1FB0B294834D3000E114E /* OverlaysInSwiftUI.swift in Sources */,
 				0FE1FB1F2949F570000E114E /* HowToUseSubviews.swift in Sources */,
 				0FF5AC45294E164A00BEF6D9 /* HowToAddAnimation.swift in Sources */,
