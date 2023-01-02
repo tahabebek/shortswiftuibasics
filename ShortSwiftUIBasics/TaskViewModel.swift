@@ -10,17 +10,17 @@ import SwiftUI
 class TaskViewModel: ObservableObject{
   
   // Sample Tasks
-  @Published var storedTasks: [Task] = [
+  @Published var storedTasks: [ATask] = [
     
 //    Task(taskTitle: "Meeting", taskDescription: "Discuss team task for the day", taskDate: .init(timeIntervalSince1970: 1641645497)),
 //    Task(taskTitle: "Icon set", taskDescription: "Edit icons for team task for next week", taskDate: .init(timeIntervalSince1970: 1641649097)),
-    Task(taskTitle: "Prototype", taskDescription: "Make and send prototype", taskDate: .init(timeIntervalSince1970: 1641652697)),
-    Task(taskTitle: "Check asset", taskDescription: "Start checking the assets", taskDate: .init(timeIntervalSince1970: 1641656297)),
-    Task(taskTitle: "Team party", taskDescription: "Make fun with team mates", taskDate: .init(timeIntervalSince1970: 1641661897)),
-    Task(taskTitle: "Client Meeting", taskDescription: "Explain project to clinet", taskDate: .init(timeIntervalSince1970: 1641641897)),
+    ATask(taskTitle: "Prototype", taskDescription: "Make and send prototype", taskDate: .init(timeIntervalSince1970: 1641652697)),
+    ATask(taskTitle: "Check asset", taskDescription: "Start checking the assets", taskDate: .init(timeIntervalSince1970: 1641656297)),
+    ATask(taskTitle: "Team party", taskDescription: "Make fun with team mates", taskDate: .init(timeIntervalSince1970: 1641661897)),
+    ATask(taskTitle: "Client Meeting", taskDescription: "Explain project to clinet", taskDate: .init(timeIntervalSince1970: 1641641897)),
     
-    Task(taskTitle: "Next Project", taskDescription: "Discuss next project with team", taskDate: .init(timeIntervalSince1970: 1641677897)),
-    Task(taskTitle: "App Proposal", taskDescription: "Meet client for next App Proposal", taskDate: .init(timeIntervalSince1970: 1641681497)),
+    ATask(taskTitle: "Next Project", taskDescription: "Discuss next project with team", taskDate: .init(timeIntervalSince1970: 1641677897)),
+    ATask(taskTitle: "App Proposal", taskDescription: "Meet client for next App Proposal", taskDate: .init(timeIntervalSince1970: 1641681497)),
   ]
   
   // MARK: Current Week Days
@@ -30,7 +30,7 @@ class TaskViewModel: ObservableObject{
   @Published var currentDay: Date = Date()
   
   // MARK: Filtering Today Tasks
-  @Published var filteredTasks: [Task]?
+  @Published var filteredTasks: [ATask]?
   
   // MARK: Intializing
   init(){
@@ -109,7 +109,7 @@ class TaskViewModel: ObservableObject{
 }
 
 // Task Model
-struct Task: Identifiable{
+struct ATask: Identifiable{
   var id = UUID().uuidString
   var taskTitle: String
   var taskDescription: String

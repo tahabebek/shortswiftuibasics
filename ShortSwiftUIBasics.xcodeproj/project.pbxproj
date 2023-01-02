@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
+=======
+		0F76B0C0295B48EE00A4A6F6 /* FlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F76B0BF295B48EE00A4A6F6 /* FlightApp.swift */; };
+		0F76B0C2295B60F000A4A6F6 /* HowToUseSegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F76B0C1295B60F000A4A6F6 /* HowToUseSegmentedPicker.swift */; };
+		0FAFEED92954EC5B0012EF68 /* HowToUseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEED82954EC5B0012EF68 /* HowToUseList.swift */; };
+		0FAFEEDB2955CDF10012EF68 /* CoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEEDA2955CDF10012EF68 /* CoffeeApp.swift */; };
+		0FAFEEDD295613B20012EF68 /* HowToShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEEDC295613B20012EF68 /* HowToShowAlert.swift */; };
+		0FAFEEE7295743A70012EF68 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFEEE6295743A70012EF68 /* WidgetKit.framework */; };
+		0FAFEEE9295743A80012EF68 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAFEEE8295743A70012EF68 /* SwiftUI.framework */; };
+		0FAFEEEC295743A80012EF68 /* CryptoWidgetExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEEEB295743A80012EF68 /* CryptoWidgetExtensionBundle.swift */; };
+		0FAFEEF3295743AA0012EF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAFEEF2295743AA0012EF68 /* Assets.xcassets */; };
+		0FAFEEF5295743AA0012EF68 /* CryptoWidgetExtension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEEF1295743A80012EF68 /* CryptoWidgetExtension.intentdefinition */; };
+		0FAFEEF6295743AA0012EF68 /* CryptoWidgetExtension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEEF1295743A80012EF68 /* CryptoWidgetExtension.intentdefinition */; };
+		0FAFEEF9295743AA0012EF68 /* CryptoWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0FAFEEE4295743A70012EF68 /* CryptoWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0FAFEEFE295745270012EF68 /* CryptoAppWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFEEDE29573B110012EF68 /* CryptoAppWidget.swift */; };
+>>>>>>> Stashed changes
 		0FC1D210294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1D20F294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift */; };
 		0FC1D214294039C000F1A65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1D213294039C000F1A65B /* Assets.xcassets */; };
 		0FC1D217294039C000F1A65B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1D216294039C000F1A65B /* Preview Assets.xcassets */; };
 		0FC1D221294039C000F1A65B /* ShortSwiftUIBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1D220294039C000F1A65B /* ShortSwiftUIBasicsTests.swift */; };
 		0FC1D22B294039C000F1A65B /* ShortSwiftUIBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1D22A294039C000F1A65B /* ShortSwiftUIBasicsUITests.swift */; };
 		0FC1D22D294039C000F1A65B /* ShortSwiftUIBasicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1D22C294039C000F1A65B /* ShortSwiftUIBasicsUITestsLaunchTests.swift */; };
+		0FD75242295EFFE50016EED2 /* HowToUseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD75241295EFFE50016EED2 /* HowToUseTabView.swift */; };
+		0FD75244295F0A7E0016EED2 /* HowToUsePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD75243295F0A7E0016EED2 /* HowToUsePageView.swift */; };
+		0FD752462960B9260016EED2 /* HowToUseTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD752452960B9260016EED2 /* HowToUseTapGesture.swift */; };
+		0FD752482961E7030016EED2 /* HowToUseDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD752472961E7030016EED2 /* HowToUseDragGesture.swift */; };
+		0FD7524A2961F4760016EED2 /* HowToUseFollowedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD752492961F4760016EED2 /* HowToUseFollowedState.swift */; };
+		0FD7524C2961FACC0016EED2 /* HowToUseFocusedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7524B2961FACC0016EED2 /* HowToUseFocusedState.swift */; };
+		0FD8FD31295C8DAB0030F728 /* HowToUseToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8FD30295C8DAB0030F728 /* HowToUseToggle.swift */; };
+		0FDDEFDF295DE65500ED91DD /* HowToUseStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDEFDE295DE65500ED91DD /* HowToUseStepper.swift */; };
+		0FDDEFE1295DF1A400ED91DD /* HowToShowStaticText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDEFE0295DF1A400ED91DD /* HowToShowStaticText.swift */; };
+		0FDDEFE3295DFA2700ED91DD /* HowToUseSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDEFE2295DFA2700ED91DD /* HowToUseSlider.swift */; };
 		0FE1FAF92943FDCD000E114E /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 0FE1FAF82943FDCD000E114E /* Shimmer */; };
 		0FE1FAFD294767AC000E114E /* HowToShowImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1FAFC294767AC000E114E /* HowToShowImages.swift */; };
 		0FE1FAFF29477A6B000E114E /* HowToAddGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1FAFE29477A6B000E114E /* HowToAddGradient.swift */; };
@@ -33,6 +59,8 @@
 		0FE1FB1D294991F7000E114E /* HowDoesStateWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1FB1C294991F7000E114E /* HowDoesStateWork.swift */; };
 		0FE1FB1F2949F570000E114E /* HowToUseSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1FB1E2949F570000E114E /* HowToUseSubviews.swift */; };
 		0FE1FB21294AB304000E114E /* KeyboardShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1FB20294AB304000E114E /* KeyboardShortcut.swift */; };
+		0FE671C92962EF9000E1E3C2 /* SequencedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE671C82962EF9000E1E3C2 /* SequencedAnimation.swift */; };
+		0FE671CB2962F00600E1E3C2 /* RollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE671CA2962F00600E1E3C2 /* RollingText.swift */; };
 		0FF4DB492951D45E00E825D8 /* Tinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DB482951D45E00E825D8 /* Tinder.swift */; };
 		0FF4DB4B295237C500E825D8 /* HowToUseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DB4A295237C500E825D8 /* HowToUseSheet.swift */; };
 		0FF4DB4D2953148200E825D8 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DB4C2953148200E825D8 /* TaskManager.swift */; };
@@ -41,9 +69,23 @@
 		0FF5AC43294CEFD900BEF6D9 /* HowToUseBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5AC42294CEFD900BEF6D9 /* HowToUseBinding.swift */; };
 		0FF5AC45294E164A00BEF6D9 /* HowToAddAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5AC44294E164A00BEF6D9 /* HowToAddAnimation.swift */; };
 		0FF5AC472950E38C00BEF6D9 /* HowToUseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5AC462950E38C00BEF6D9 /* HowToUseTransition.swift */; };
+<<<<<<< Updated upstream
+=======
+		0FFB7BCE2954874600217CE8 /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB7BCD2954874600217CE8 /* Spotify.swift */; };
+		0FFE49E229578B7400C18C1E /* HowToUseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE49E129578B7400C18C1E /* HowToUseTextField.swift */; };
+		0FFE49E42958B4E400C18C1E /* HowToUseObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE49E32958B4E400C18C1E /* HowToUseObservableObject.swift */; };
+		0FFE49E8295A06EA00C18C1E /* HowToUsePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE49E7295A06EA00C18C1E /* HowToUsePicker.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0FAFEEF7295743AA0012EF68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC1D204294039BE00F1A65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FAFEEE3295743A70012EF68;
+			remoteInfo = CryptoWidgetExtensionExtension;
+		};
 		0FC1D21D294039C000F1A65B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0FC1D204294039BE00F1A65B /* Project object */;
@@ -60,7 +102,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0FAFEEFD295743AA0012EF68 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0FAFEEF9295743AA0012EF68 /* CryptoWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
+=======
+		0F76B0BF295B48EE00A4A6F6 /* FlightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightApp.swift; sourceTree = "<group>"; };
+		0F76B0C1295B60F000A4A6F6 /* HowToUseSegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseSegmentedPicker.swift; sourceTree = "<group>"; };
+		0FAFEED82954EC5B0012EF68 /* HowToUseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseList.swift; sourceTree = "<group>"; };
+		0FAFEEDA2955CDF10012EF68 /* CoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeApp.swift; sourceTree = "<group>"; };
+		0FAFEEDC295613B20012EF68 /* HowToShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToShowAlert.swift; sourceTree = "<group>"; };
+		0FAFEEDE29573B110012EF68 /* CryptoAppWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppWidget.swift; sourceTree = "<group>"; };
+		0FAFEEE4295743A70012EF68 /* CryptoWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptoWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAFEEE6295743A70012EF68 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0FAFEEE8295743A70012EF68 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0FAFEEEB295743A80012EF68 /* CryptoWidgetExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWidgetExtensionBundle.swift; sourceTree = "<group>"; };
+		0FAFEEF1295743A80012EF68 /* CryptoWidgetExtension.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CryptoWidgetExtension.intentdefinition; sourceTree = "<group>"; };
+		0FAFEEF2295743AA0012EF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FAFEEF4295743AA0012EF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		0FC1D20C294039BE00F1A65B /* ShortSwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortSwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC1D20F294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortSwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		0FC1D213294039C000F1A65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,6 +142,16 @@
 		0FC1D226294039C000F1A65B /* ShortSwiftUIBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortSwiftUIBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC1D22A294039C000F1A65B /* ShortSwiftUIBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortSwiftUIBasicsUITests.swift; sourceTree = "<group>"; };
 		0FC1D22C294039C000F1A65B /* ShortSwiftUIBasicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortSwiftUIBasicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FD75241295EFFE50016EED2 /* HowToUseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseTabView.swift; sourceTree = "<group>"; };
+		0FD75243295F0A7E0016EED2 /* HowToUsePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUsePageView.swift; sourceTree = "<group>"; };
+		0FD752452960B9260016EED2 /* HowToUseTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseTapGesture.swift; sourceTree = "<group>"; };
+		0FD752472961E7030016EED2 /* HowToUseDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseDragGesture.swift; sourceTree = "<group>"; };
+		0FD752492961F4760016EED2 /* HowToUseFollowedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseFollowedState.swift; sourceTree = "<group>"; };
+		0FD7524B2961FACC0016EED2 /* HowToUseFocusedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseFocusedState.swift; sourceTree = "<group>"; };
+		0FD8FD30295C8DAB0030F728 /* HowToUseToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseToggle.swift; sourceTree = "<group>"; };
+		0FDDEFDE295DE65500ED91DD /* HowToUseStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseStepper.swift; sourceTree = "<group>"; };
+		0FDDEFE0295DF1A400ED91DD /* HowToShowStaticText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToShowStaticText.swift; sourceTree = "<group>"; };
+		0FDDEFE2295DFA2700ED91DD /* HowToUseSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseSlider.swift; sourceTree = "<group>"; };
 		0FE1FAFC294767AC000E114E /* HowToShowImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToShowImages.swift; sourceTree = "<group>"; };
 		0FE1FAFE29477A6B000E114E /* HowToAddGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAddGradient.swift; sourceTree = "<group>"; };
 		0FE1FB002947B4E4000E114E /* HowToAddBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAddBackground.swift; sourceTree = "<group>"; };
@@ -89,6 +171,8 @@
 		0FE1FB1C294991F7000E114E /* HowDoesStateWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowDoesStateWork.swift; sourceTree = "<group>"; };
 		0FE1FB1E2949F570000E114E /* HowToUseSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseSubviews.swift; sourceTree = "<group>"; };
 		0FE1FB20294AB304000E114E /* KeyboardShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShortcut.swift; sourceTree = "<group>"; };
+		0FE671C82962EF9000E1E3C2 /* SequencedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencedAnimation.swift; sourceTree = "<group>"; };
+		0FE671CA2962F00600E1E3C2 /* RollingText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingText.swift; sourceTree = "<group>"; };
 		0FF4DB482951D45E00E825D8 /* Tinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder.swift; sourceTree = "<group>"; };
 		0FF4DB4A295237C500E825D8 /* HowToUseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseSheet.swift; sourceTree = "<group>"; };
 		0FF4DB4C2953148200E825D8 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
@@ -97,9 +181,25 @@
 		0FF5AC42294CEFD900BEF6D9 /* HowToUseBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseBinding.swift; sourceTree = "<group>"; };
 		0FF5AC44294E164A00BEF6D9 /* HowToAddAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAddAnimation.swift; sourceTree = "<group>"; };
 		0FF5AC462950E38C00BEF6D9 /* HowToUseTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseTransition.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		0FFB7BCD2954874600217CE8 /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
+		0FFE49E129578B7400C18C1E /* HowToUseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseTextField.swift; sourceTree = "<group>"; };
+		0FFE49E32958B4E400C18C1E /* HowToUseObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseObservableObject.swift; sourceTree = "<group>"; };
+		0FFE49E7295A06EA00C18C1E /* HowToUsePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUsePicker.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0FAFEEE1295743A70012EF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFEEE9295743A80012EF68 /* SwiftUI.framework in Frameworks */,
+				0FAFEEE7295743A70012EF68 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FC1D209294039BE00F1A65B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,12 +225,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FAFEEE5295743A70012EF68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFEEE6295743A70012EF68 /* WidgetKit.framework */,
+				0FAFEEE8295743A70012EF68 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FAFEEEA295743A80012EF68 /* CryptoWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFEEEB295743A80012EF68 /* CryptoWidgetExtensionBundle.swift */,
+				0FAFEEDE29573B110012EF68 /* CryptoAppWidget.swift */,
+				0FAFEEF1295743A80012EF68 /* CryptoWidgetExtension.intentdefinition */,
+				0FAFEEF2295743AA0012EF68 /* Assets.xcassets */,
+				0FAFEEF4295743AA0012EF68 /* Info.plist */,
+			);
+			path = CryptoWidgetExtension;
+			sourceTree = "<group>";
+		};
 		0FC1D203294039BE00F1A65B = {
 			isa = PBXGroup;
 			children = (
 				0FC1D20E294039BE00F1A65B /* ShortSwiftUIBasics */,
 				0FC1D21F294039C000F1A65B /* ShortSwiftUIBasicsTests */,
 				0FC1D229294039C000F1A65B /* ShortSwiftUIBasicsUITests */,
+				0FAFEEEA295743A80012EF68 /* CryptoWidgetExtension */,
+				0FAFEEE5295743A70012EF68 /* Frameworks */,
 				0FC1D20D294039BE00F1A65B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,6 +264,7 @@
 				0FC1D20C294039BE00F1A65B /* ShortSwiftUIBasics.app */,
 				0FC1D21C294039C000F1A65B /* ShortSwiftUIBasicsTests.xctest */,
 				0FC1D226294039C000F1A65B /* ShortSwiftUIBasicsUITests.xctest */,
+				0FAFEEE4295743A70012EF68 /* CryptoWidgetExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				0FC1D20F294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift */,
+				0FDDEFE0295DF1A400ED91DD /* HowToShowStaticText.swift */,
 				0FE1FAFC294767AC000E114E /* HowToShowImages.swift */,
 				0FE1FAFE29477A6B000E114E /* HowToAddGradient.swift */,
 				0FE1FB002947B4E4000E114E /* HowToAddBackground.swift */,
@@ -176,6 +301,29 @@
 				0FF4DB4C2953148200E825D8 /* TaskManager.swift */,
 				0FF4DB4E295314E300E825D8 /* TaskViewModel.swift */,
 				0FF4DB5029539B1500E825D8 /* HowToUseNavigation.swift */,
+<<<<<<< Updated upstream
+=======
+				0FFB7BCD2954874600217CE8 /* Spotify.swift */,
+				0FAFEED82954EC5B0012EF68 /* HowToUseList.swift */,
+				0FAFEEDA2955CDF10012EF68 /* CoffeeApp.swift */,
+				0FAFEEDC295613B20012EF68 /* HowToShowAlert.swift */,
+				0FFE49E129578B7400C18C1E /* HowToUseTextField.swift */,
+				0FFE49E32958B4E400C18C1E /* HowToUseObservableObject.swift */,
+				0FFE49E7295A06EA00C18C1E /* HowToUsePicker.swift */,
+				0F76B0BF295B48EE00A4A6F6 /* FlightApp.swift */,
+				0F76B0C1295B60F000A4A6F6 /* HowToUseSegmentedPicker.swift */,
+				0FD8FD30295C8DAB0030F728 /* HowToUseToggle.swift */,
+				0FDDEFDE295DE65500ED91DD /* HowToUseStepper.swift */,
+				0FDDEFE2295DFA2700ED91DD /* HowToUseSlider.swift */,
+				0FD75241295EFFE50016EED2 /* HowToUseTabView.swift */,
+				0FD75243295F0A7E0016EED2 /* HowToUsePageView.swift */,
+				0FD752452960B9260016EED2 /* HowToUseTapGesture.swift */,
+				0FD752472961E7030016EED2 /* HowToUseDragGesture.swift */,
+				0FD752492961F4760016EED2 /* HowToUseFollowedState.swift */,
+				0FD7524B2961FACC0016EED2 /* HowToUseFocusedState.swift */,
+				0FE671C82962EF9000E1E3C2 /* SequencedAnimation.swift */,
+				0FE671CA2962F00600E1E3C2 /* RollingText.swift */,
+>>>>>>> Stashed changes
 				0FC1D213294039C000F1A65B /* Assets.xcassets */,
 				0FC1D215294039C000F1A65B /* Preview Content */,
 			);
@@ -210,6 +358,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0FAFEEE3295743A70012EF68 /* CryptoWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FAFEEFA295743AA0012EF68 /* Build configuration list for PBXNativeTarget "CryptoWidgetExtensionExtension" */;
+			buildPhases = (
+				0FAFEEE0295743A70012EF68 /* Sources */,
+				0FAFEEE1295743A70012EF68 /* Frameworks */,
+				0FAFEEE2295743A70012EF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoWidgetExtensionExtension;
+			productName = CryptoWidgetExtensionExtension;
+			productReference = 0FAFEEE4295743A70012EF68 /* CryptoWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		0FC1D20B294039BE00F1A65B /* ShortSwiftUIBasics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FC1D230294039C000F1A65B /* Build configuration list for PBXNativeTarget "ShortSwiftUIBasics" */;
@@ -217,10 +382,12 @@
 				0FC1D208294039BE00F1A65B /* Sources */,
 				0FC1D209294039BE00F1A65B /* Frameworks */,
 				0FC1D20A294039BE00F1A65B /* Resources */,
+				0FAFEEFD295743AA0012EF68 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0FAFEEF8295743AA0012EF68 /* PBXTargetDependency */,
 			);
 			name = ShortSwiftUIBasics;
 			packageProductDependencies = (
@@ -276,6 +443,9 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					0FAFEEE3295743A70012EF68 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					0FC1D20B294039BE00F1A65B = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -308,11 +478,20 @@
 				0FC1D20B294039BE00F1A65B /* ShortSwiftUIBasics */,
 				0FC1D21B294039C000F1A65B /* ShortSwiftUIBasicsTests */,
 				0FC1D225294039C000F1A65B /* ShortSwiftUIBasicsUITests */,
+				0FAFEEE3295743A70012EF68 /* CryptoWidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0FAFEEE2295743A70012EF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFEEF3295743AA0012EF68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FC1D20A294039BE00F1A65B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +518,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0FAFEEE0295743A70012EF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFEEEC295743A80012EF68 /* CryptoWidgetExtensionBundle.swift in Sources */,
+				0FAFEEF5295743AA0012EF68 /* CryptoWidgetExtension.intentdefinition in Sources */,
+				0FAFEEFE295745270012EF68 /* CryptoAppWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FC1D208294039BE00F1A65B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,30 +536,50 @@
 				0FE1FB032947B96C000E114E /* HowToDrawShapes.swift in Sources */,
 				0FF5AC472950E38C00BEF6D9 /* HowToUseTransition.swift in Sources */,
 				0FE1FB21294AB304000E114E /* KeyboardShortcut.swift in Sources */,
+				0FAFEEDB2955CDF10012EF68 /* CoffeeApp.swift in Sources */,
 				0FE1FB0D29483853000E114E /* VStackHStackZStack.swift in Sources */,
 				0FE1FB072947CBC5000E114E /* HowToLoadImage.swift in Sources */,
 				0FE1FB1929497317000E114E /* HowToUseAGrid.swift in Sources */,
 				0FE1FAFD294767AC000E114E /* HowToShowImages.swift in Sources */,
 				0FE1FB012947B4E4000E114E /* HowToAddBackground.swift in Sources */,
+				0FE671CB2962F00600E1E3C2 /* RollingText.swift in Sources */,
+				0F76B0C2295B60F000A4A6F6 /* HowToUseSegmentedPicker.swift in Sources */,
 				0FF4DB5129539B1500E825D8 /* HowToUseNavigation.swift in Sources */,
 				0FE1FB0B294834D3000E114E /* OverlaysInSwiftUI.swift in Sources */,
+				0FD75244295F0A7E0016EED2 /* HowToUsePageView.swift in Sources */,
+				0FDDEFE1295DF1A400ED91DD /* HowToShowStaticText.swift in Sources */,
+				0FFE49E42958B4E400C18C1E /* HowToUseObservableObject.swift in Sources */,
 				0FE1FB1F2949F570000E114E /* HowToUseSubviews.swift in Sources */,
+				0FD75242295EFFE50016EED2 /* HowToUseTabView.swift in Sources */,
+				0F76B0C0295B48EE00A4A6F6 /* FlightApp.swift in Sources */,
 				0FF5AC45294E164A00BEF6D9 /* HowToAddAnimation.swift in Sources */,
 				0FE1FB052947C199000E114E /* HowToTrimShapes.swift in Sources */,
 				0FE1FB1B29498547000E114E /* HowToIgnoreSafeArea.swift in Sources */,
 				0FF4DB4B295237C500E825D8 /* HowToUseSheet.swift in Sources */,
 				0FE1FB1129486BD6000E114E /* HowToUseSpacer.swift in Sources */,
+				0FDDEFE3295DFA2700ED91DD /* HowToUseSlider.swift in Sources */,
+				0FD8FD31295C8DAB0030F728 /* HowToUseToggle.swift in Sources */,
 				0FF4DB4F295314E300E825D8 /* TaskViewModel.swift in Sources */,
+				0FD7524C2961FACC0016EED2 /* HowToUseFocusedState.swift in Sources */,
+				0FDDEFDF295DE65500ED91DD /* HowToUseStepper.swift in Sources */,
 				0FF4DB4D2953148200E825D8 /* TaskManager.swift in Sources */,
+				0FD7524A2961F4760016EED2 /* HowToUseFollowedState.swift in Sources */,
 				0FE1FAFF29477A6B000E114E /* HowToAddGradient.swift in Sources */,
 				0FE1FB1729496A57000E114E /* HowToUseAButton.swift in Sources */,
 				0FE1FB152948E3E2000E114E /* HowToUseScrollView.swift in Sources */,
+				0FAFEEDD295613B20012EF68 /* HowToShowAlert.swift in Sources */,
 				0FF5AC43294CEFD900BEF6D9 /* HowToUseBinding.swift in Sources */,
+				0FE671C92962EF9000E1E3C2 /* SequencedAnimation.swift in Sources */,
 				0FE1FB0F2948667A000E114E /* AddPadding.swift in Sources */,
+				0FD752482961E7030016EED2 /* HowToUseDragGesture.swift in Sources */,
 				0FE1FB132948B2A2000E114E /* HowToUseForEach.swift in Sources */,
 				0FF4DB492951D45E00E825D8 /* Tinder.swift in Sources */,
+				0FD752462960B9260016EED2 /* HowToUseTapGesture.swift in Sources */,
 				0FC1D210294039BE00F1A65B /* ShortSwiftUIBasicsApp.swift in Sources */,
 				0FE1FB0929482DE5000E114E /* FramesAndAlignments.swift in Sources */,
+				0FAFEEF6295743AA0012EF68 /* CryptoWidgetExtension.intentdefinition in Sources */,
+				0FFE49E229578B7400C18C1E /* HowToUseTextField.swift in Sources */,
+				0FFE49E8295A06EA00C18C1E /* HowToUsePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +603,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0FAFEEF8295743AA0012EF68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FAFEEE3295743A70012EF68 /* CryptoWidgetExtensionExtension */;
+			targetProxy = 0FAFEEF7295743AA0012EF68 /* PBXContainerItemProxy */;
+		};
 		0FC1D21E294039C000F1A65B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0FC1D20B294039BE00F1A65B /* ShortSwiftUIBasics */;
@@ -407,6 +621,58 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0FAFEEFB295743AA0012EF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahabebek.ShortSwiftUIBasics.CryptoWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FAFEEFC295743AA0012EF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahabebek.ShortSwiftUIBasics.CryptoWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0FC1D22E294039C000F1A65B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -524,6 +790,7 @@
 		0FC1D231294039C000F1A65B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +803,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,6 +820,7 @@
 		0FC1D232294039C000F1A65B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +833,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -652,6 +922,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FAFEEFA295743AA0012EF68 /* Build configuration list for PBXNativeTarget "CryptoWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAFEEFB295743AA0012EF68 /* Debug */,
+				0FAFEEFC295743AA0012EF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0FC1D207294039BE00F1A65B /* Build configuration list for PBXProject "ShortSwiftUIBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
