@@ -84,7 +84,7 @@ struct TaskManager: View {
     }
   }
   
-  func taskCardView(task: Task) -> some View {
+  func taskCardView(task: ATask) -> some View {
     HStack(alignment: .top, spacing: 30) {
       VStack(spacing: 10) {
         Circle()
