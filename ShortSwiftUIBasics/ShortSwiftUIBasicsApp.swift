@@ -11,7 +11,7 @@ import SwiftUI
 struct ShortSwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-          HowToUseFocusedState()
+          HowToUseAppStorage()
         }
     }
 }

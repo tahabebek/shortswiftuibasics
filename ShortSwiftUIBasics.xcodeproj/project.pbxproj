@@ -58,6 +58,7 @@
 		0FE1FB21294AB304000E114E /* KeyboardShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1FB20294AB304000E114E /* KeyboardShortcut.swift */; };
 		0FE671C92962EF9000E1E3C2 /* SequencedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE671C82962EF9000E1E3C2 /* SequencedAnimation.swift */; };
 		0FE671CB2962F00600E1E3C2 /* RollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE671CA2962F00600E1E3C2 /* RollingText.swift */; };
+		0FE671CD296350D300E1E3C2 /* HowToUseAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE671CC296350D300E1E3C2 /* HowToUseAppStorage.swift */; };
 		0FF4DB492951D45E00E825D8 /* Tinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DB482951D45E00E825D8 /* Tinder.swift */; };
 		0FF4DB4B295237C500E825D8 /* HowToUseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DB4A295237C500E825D8 /* HowToUseSheet.swift */; };
 		0FF4DB4D2953148200E825D8 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4DB4C2953148200E825D8 /* TaskManager.swift */; };
@@ -164,6 +165,7 @@
 		0FE1FB20294AB304000E114E /* KeyboardShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShortcut.swift; sourceTree = "<group>"; };
 		0FE671C82962EF9000E1E3C2 /* SequencedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencedAnimation.swift; sourceTree = "<group>"; };
 		0FE671CA2962F00600E1E3C2 /* RollingText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingText.swift; sourceTree = "<group>"; };
+		0FE671CC296350D300E1E3C2 /* HowToUseAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseAppStorage.swift; sourceTree = "<group>"; };
 		0FF4DB482951D45E00E825D8 /* Tinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder.swift; sourceTree = "<group>"; };
 		0FF4DB4A295237C500E825D8 /* HowToUseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseSheet.swift; sourceTree = "<group>"; };
 		0FF4DB4C2953148200E825D8 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 				0FD7524B2961FACC0016EED2 /* HowToUseFocusedState.swift */,
 				0FE671C82962EF9000E1E3C2 /* SequencedAnimation.swift */,
 				0FE671CA2962F00600E1E3C2 /* RollingText.swift */,
+				0FE671CC296350D300E1E3C2 /* HowToUseAppStorage.swift */,
 				0FC1D213294039C000F1A65B /* Assets.xcassets */,
 				0FC1D215294039C000F1A65B /* Preview Content */,
 			);
@@ -525,6 +528,7 @@
 				0FE1FB0D29483853000E114E /* VStackHStackZStack.swift in Sources */,
 				0FE1FB072947CBC5000E114E /* HowToLoadImage.swift in Sources */,
 				0FE1FB1929497317000E114E /* HowToUseAGrid.swift in Sources */,
+				0FE671CD296350D300E1E3C2 /* HowToUseAppStorage.swift in Sources */,
 				0FE1FAFD294767AC000E114E /* HowToShowImages.swift in Sources */,
 				0FE1FB012947B4E4000E114E /* HowToAddBackground.swift in Sources */,
 				0FE671CB2962F00600E1E3C2 /* RollingText.swift in Sources */,
