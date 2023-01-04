@@ -187,20 +187,44 @@ if turnipsAreDelicious {
 // == equal to operator
 // != not equal to operator
 
-let possibleNumber: String = "123"
+
+
+
+let possibleNumber: String = "567"
+
+let myNumber = Int(possibleNumber)
+
+//Optional Binding
+if let myNumber {
+  print(">>> \(myNumber)")
+}
+
+
+
+
+
+
+
+
+if let actualNumber = Int(possibleNumber) {
+  //print(">>> \(actualNumber)")
+} else {
+  //print(">>> actualNumber is nil")
+}
+
+
+
+
 let convertedNumber = Int(possibleNumber)
+
 
 if convertedNumber != nil {
   
   //forced unwrapping with !
   let forceUnwrappedNumber = convertedNumber!
   
-  print(">>> forceUnwrappedNumber is \(forceUnwrappedNumber)")
+  //print(">>> forceUnwrappedNumber is \(forceUnwrappedNumber)")
 }
-
-
-
-
 
 
 
